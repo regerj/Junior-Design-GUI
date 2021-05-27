@@ -115,7 +115,7 @@ void JDGUI::animPressed()
         {
             // Free memory here
         }
-        //currAnim = constructAnimTwo();
+        currAnim = constructAnimTwo();
         currAnim->iter = currAnim->head;
 
         std::cout << "beginning time loop" << std::endl;
@@ -143,7 +143,7 @@ void JDGUI::animPressed()
         {
             // Free memory here
         }
-        //currAnim = constructAnimThree();
+        currAnim = constructAnimThree();
         currAnim->iter = currAnim->head;
 
         std::cout << "beginning time loop" << std::endl;

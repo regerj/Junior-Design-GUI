@@ -25,5 +25,7 @@ extern std::fstream outputFile;
 // Returns a pointer to a custom linked
 // list. (see linkedList.h)
 struct linkedList* constructAnimOne();
+struct linkedList* constructAnimTwo();
+struct linkedList* constructAnimThree();
 
 #endif // HEADER_H
